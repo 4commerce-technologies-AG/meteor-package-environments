@@ -1,7 +1,7 @@
 // use for file access
 var fs = Npm.require('fs');
 // using this meteor lib, gives secure access to folder structure
-var files = Npm.require("./mini-files");
+var files = Npm.require("../../mini-files.js");
 
 // save reference to serverDir
 var serverDir = files.pathResolve(__meteor_bootstrap__.serverDir);
